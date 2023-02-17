@@ -66,7 +66,7 @@
 .container form .submit-btn {
 
     width: 100%;
-    background: linear-gradient(45deg, #B56D6D,#A82C2C);
+    background: linear-gradient(45deg, #e9ecef, #343a40);
     margin-top: 20px;
     color: #fff;
     border-radius: 10px;
@@ -96,7 +96,7 @@
     width: 100%;
     top: 0;
     left: 0;
-    background: linear-gradient(45deg, #b56D6D, #A82C2C);
+    background: linear-gradient(45deg, #e9ecef, #343a40);
     border-radius: 5px;
     backface-visibility: hidden;
     box-shadow: 0 15px 25px rgba(0, 0, 0, .2s);
@@ -147,7 +147,7 @@
     left: 0;
     height: 100%;
     width: 100%;
-    background: linear-gradient(45deg, #B56D6D, #A82C2C);
+    background: linear-gradient(45deg, #e9ecef, #343a40);
     border-radius: 5px;
     padding: 20px 0;
     text-align: right;
@@ -198,4 +198,18 @@
 }
 
 
+.c-loader {
+    animation: is-rotating 1s infinite;
+    border: 6px solid #e5e5e5;
+    border-radius: 50%;
+    border-top-color: #51d4db;
+    height: 50px;
+    width: 50px;
+  }
+  
+  @keyframes is-rotating {
+    to {
+      transform: rotate(1turn);
+    }
+  }
 
